@@ -80,3 +80,34 @@ h2 {
 footer {
     font-size: 24px;
 }
+
+.container, .square{
+    display: flex;
+}
+
+.week, .reminders{
+    display: inline-flex;
+}
+
+.week{
+    flex-grow: 3;
+    flex-direction: column;
+}
+
+.reminders{
+    flex-grow: 2;
+}
+
+.row{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.square{
+    justify-items: center;
+    justify-content: center;
+}
+
+.row, .square{
+    align-items: center;
+}
